@@ -1,0 +1,43 @@
+.ladrillo{
+    width: 150px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    z-index: -2;
+}
+
+.flecha-inicio{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titulo-general {
+    margin-left: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.texto-general{
+}
+
+.titulo-trabajos{
+    padding: 10px 0;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    margin-bottom: 3rem;
+    color: black;
+}
+
+.titulo-trabajos:hover{
+    color: white;
+  background-color: red;
+  border-color: red;
+  box-shadow: 0px 0px 5px red;
+}
